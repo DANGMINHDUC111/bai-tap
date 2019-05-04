@@ -1,0 +1,484 @@
+*{padding:0; margin: 0;box-sizing: border-box;}
+img{
+	max-width: 100%;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+.full{
+	width: 100%;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+
+}
+
+.left{
+	float: left;
+	font-size: 35px;
+}
+nav ul li a{
+	color: #333333;
+}
+.left span{
+	color: orange;
+}
+.right{
+	float: right; 
+	font-size: 16px;
+	padding-left: 65px;
+}
+.item:hover a{
+	color:orange;
+}
+.slide{
+	width: 100%;
+	height: 555px;
+	background: url('images/slider/1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.box1{
+	text-align: center;
+
+}
+.box1>h4{
+	padding-bottom: 25px;
+	padding-top: 80px;
+	font-size: 20px;
+	color: gray;
+}
+.box1>h3{
+	font-size: 25px;
+	padding-bottom: 108px;
+}
+.box4{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.box4>h5{
+	padding-top: 100px;
+	color: gray;
+
+}
+.box50{
+	width: 50%;
+	margin:auto;
+}
+.box50>h3{
+	font-size: 25px;
+	padding-bottom: 45px;
+	padding-top: 140px;
+}
+.box2anh{
+	width: 50%;
+	float: left;
+	margin-top: 75px;
+}
+.box33{
+	width: 33.3%;
+	text-align: left;
+	float: left;
+	margin-top: 100px;
+
+	
+}
+.box33>img{
+	float: left;
+	padding-right: 8px;
+	padding-bottom: 135px;
+}
+.chu>h4{
+	padding-bottom: 25px;
+}
+.bgorange{
+	background-color: #ed512f;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 70px;
+	color: white;
+}
+.bgorange>h3{
+	font-size: 25px;
+	padding-bottom: 35px;
+}
+.bgorange>p{
+	padding-bottom: 50px;
+}
+.bgorange>button{
+	font-size: 18px;
+	border: 1px solid #dddddd;
+	padding: 10px 15px 16px 15px;
+	border-radius:20px;
+}
+.container3{
+	width: 80%;
+	margin:auto;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 130px;
+}
+.boximg25{
+	width: 23%;
+	margin-right: 2.5%;
+	text-align: center;
+
+}
+.boximg35:nth-child(4n){
+	margin-right: 0;
+}
+.boximg25>img{
+	border:1px solid white;
+	border-radius: 20px;
+	margin-bottom: 35px;	
+}
+.text>h3{
+	margin-bottom: 20px;
+}
+
+.container4>h3{
+	font-size: 20px;
+	margin-top: 110px;
+	margin-bottom: 30px;
+}
+.container4>h2{
+	margin-bottom: 83px;
+}
+.container4{
+	width: 80%;
+	margin:auto;
+	text-align: center;
+}
+.right i{
+	display: none;
+}
+.full5{
+	width: 100%;
+	background:#292929;
+}
+.container5{
+	width: 80%;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	padding-top: 75px;
+	padding-bottom: 65px;
+	color: white;
+}
+.box3{
+	width: 32%;
+	margin-right: 2%;
+}
+.box3:nth-child(3n){
+	margin-right: 0;
+}
+.box3>h3{
+	margin-bottom: 53px;
+}
+.box3>p{
+	display: block;
+}
+.box3 .icon{
+	margin-top: 37px;
+}
+.box3 hr{
+	margin-top: 26px;
+	margin-bottom: 26px;
+}
+.icon i{
+	padding-right: 10px;
+	font-size: 25px;
+
+}
+.container6{
+	width: 80%;
+	margin:auto;
+}
+.container6 .trai{
+	float: left;
+}
+.container6 .phai{
+	float: right;
+}
+.navbottom{
+	width: 100%;
+	height: 83px;
+	background:#090909;
+	line-height: 83px;
+	color: white;
+}
+.phai a{
+	color: white;
+	padding-left: 33px;
+}
+@media (min-width: 700px) and (max-width: 959px)
+{
+	.right{
+		font-size: 15px;
+		padding-left: 20px;
+	}
+	.slide{
+		height: 250px;
+	}
+	.box2anh{
+		width: 75%;
+		margin-top: 0;
+	}
+	.box33{
+		width: 100%;
+		margin-top: 30px;
+
+	}
+	.box33>img{
+		padding-bottom: 50px;
+	}
+	.bgorange>button{
+		font-size: 13px;
+	}
+	.container3{
+		display: block;
+		padding-bottom: 30px;
+	}
+	.boximg25{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+	.container5{
+		display: block;
+	}
+	.box3{
+		width: 100%;
+		margin-bottom: 70px;
+	}
+	.trai{
+		font-size: 12px;
+	}
+	.phai{
+		font-size: 12px;
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+	.box3>h3{
+		margin-bottom: 15px;
+	}
+	.box4>h5{
+		padding-top: 40px;
+	}
+	.right i{
+	display: none;
+}
+}
+@media (min-width: 450px) and (max-width: 699px)
+{
+	.container{
+		width: 100%;
+	}
+	.right>a{
+		display: none;
+	}
+	.right i{
+		display: block;
+		font-size: 25px;
+		padding:3px 5px;
+		margin-right: 5px;
+		margin-top: 3px;
+		border:1px solid gray;
+		border-radius: 3px;
+	}
+	.left>a{
+		font-size: 25px;
+		margin-top:-20px;
+		position: absolute;
+		padding-left: 10px;
+	}
+	.item{
+		height: 40px;
+		position: relative;
+	}
+	nav{
+		height: 40px;
+	}
+	.slide{
+		height: 250px;
+	}
+	.box1>h4{
+		padding-top: 10px;
+	}
+	.box4{
+		width: 100%;
+		padding-bottom: 135px;
+	}
+	.box4>h5{
+		padding-top: 40px;
+	}
+	.box50>h3{
+		padding-top: 0;
+	}
+	.box2anh{
+		width: 100%;
+		margin-top: 0;
+	}
+	.box33{
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}.box33>img{
+		padding-bottom: 30px;
+	}
+	.container3{
+		display: block;
+		padding-bottom: 20px;
+	}
+	.boximg25{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.container4>h3{
+		margin-top: 30px;
+	}
+	.container5{
+		display: block;
+		padding: 0;
+		padding-bottom: 20px;
+	}
+	.box3{
+		width: 100%;
+		padding-top: 30px;
+	}
+	.trai{
+		float: none;
+		width: 100%;
+	}
+	.trai a{
+		display: block;
+		
+	} 
+	
+	.phai a{
+		padding-left: 15px;
+		display: block;
+		float: none;
+		margin-top: -15px;
+
+	}
+
+}
+@media (max-width: 449px)
+	{
+		.container{
+		width: 100%;
+	}
+	.right>a{
+		display: none;
+	}
+	.right i{
+		display: block;
+		font-size: 25px;
+		padding:3px 5px;
+		margin-right: 5px;
+		margin-top: 3px;
+		border:1px solid gray;
+		border-radius: 3px;
+	}
+	.left>a{
+		font-size: 25px;
+		margin-top:-20px;
+		position: absolute;
+		padding-left: 10px;
+	}
+	.item{
+		height: 40px;
+		position: relative;
+	}
+	nav{
+		height: 40px;
+	}
+	.slide{
+		height: 150px;
+	}
+	.box1>h3{
+		padding-bottom: 50px;
+	}
+	.box1>h4{
+		padding-top: 10px;
+	}
+	.box4{
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.box4>h5{
+		padding-top:15px;
+	}
+	.box50>h3{
+		padding-top: 0;
+	}
+	.box50>p{
+		text-align: left;
+	}
+	.box2anh{
+		width: 100%;
+		margin-top: 0;
+	}
+	.box33{
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}.box33>img{
+		padding-bottom: 60px;
+	}
+	.container3{
+		display: block;
+		padding-bottom: 20px;
+	}
+	.bgorange{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.bgorange>button{
+		font-size: 12px;
+	}
+	.boximg25{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.container4>h3{
+		margin-top: 30px;
+	}
+	.container5{
+		display: block;
+		padding: 0;
+		padding-bottom: 20px;
+	}
+	.box3{
+		width: 100%;
+		padding-top: 30px;
+	}
+	.trai{
+		float: none;
+		width: 100%;
+	}
+	.trai a{
+		display: block;
+		
+	} 
+	
+	.phai a{
+		padding-left: 5px;
+		display: block;
+		float: none;
+		margin-top: -15px;
+
+	}
+	}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div{
+			display: inline-block;
+		}
+		.section{
+			background-color: yellow;
+			position: absolute;
+			left: 0;
+			padding: 10px;
+			width: 30%;
+			
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p class="tab">Tab1</p>
+		<p class="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div>
+		<p class="tab">Tab2</p>
+		<p class="section">Lorem ipsum dolor sit amet2</p>
+	</div>
+	<div>
+		<p class="tab">Tab3</p>
+		<p class="section">Lorem ipsum dolor sit amet3</p>
+	</div>
+	<div>
+		<p class="tab">Tab4</p>
+		<p class="section">aaaaaaaaaaaaaaaaa</p>
+	</div>
+	<div>
+		<p class="tab">Tab5</p>
+		<p class="section">bbbbbbbbbbbbb</p>
+	</div>
+	<script>
+		var tab=document.getElementsByClassName('tab');
+		var section=document.getElementsByClassName('section');
+		for (var i = 0; i < tab.length; i++) {
+			tab[i].addEventListener('click', function  () {
+				for (var j = 0; j < section.length; j++) {
+					section[j].style.display="none";
+				}
+				this.nextElementSibling.style.display="block";
+			})
+		}
+	</script>
+</body>
+</html>

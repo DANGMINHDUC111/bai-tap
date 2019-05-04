@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		input{
+			display: inline-block;
+		}
+		p{
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<input type="checkbox">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+	</div>
+	<div>
+		<input type="checkbox">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+	</div>
+	<div>
+		<input type="checkbox">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+	</div>
+	<div>
+		<input type="checkbox">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+	</div>
+	<div>
+		<input type="checkbox">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+	</div>
+	<div>
+		<input type="checkbox">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+	</div>
+	<div>
+		<input type="checkbox">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+	</div>
+	<button class="checkall">checkall</button>
+	<button class="uncheckall">uncheckall</button>
+	<script>
+		var input=document.getElementsByTagName('input');
+		document.getElementsByClassName('checkall')[0].addEventListener('click',function  () {
+			 for (var i = input.length - 1; i >= 0; i--) {
+			 	input[i].checked=true;
+			 }
+		})
+
+		document.getElementsByClassName('uncheckall')[0].addEventListener('click',function  () {
+			 for (var i = input.length - 1; i >= 0; i--) {
+			 	input[i].checked=false;
+			 }
+		})
+	</script>
+</body>
+</html>
